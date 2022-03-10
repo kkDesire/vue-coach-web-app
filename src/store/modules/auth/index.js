@@ -6,7 +6,9 @@ export default {
   namespced: true,
   state() {
     return {
-      userId: "c3",
+      userId: null,
+      token: null,
+      tokenExpiration: null,
     };
   },
   mutations,
